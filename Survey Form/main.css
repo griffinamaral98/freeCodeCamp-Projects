@@ -1,0 +1,51 @@
+body {
+  background-color: rgba(27, 27, 50, 0.9);
+}
+
+#title,
+#description {
+  text-align: center;
+  color: white;
+}
+
+.container {
+  width: 80%;
+  background-color: rgba(27, 27, 50, 0.8);
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  max-width: 900px;
+}
+
+label {
+  display: block;
+  color: white;
+}
+
+p {
+  color: white;
+}
+
+.form-group {
+  padding: 2px;
+}
+
+.submit {
+  background-color: green;
+  color: white;
+  width: 100%;
+  padding: 15px;
+  border-color: green;
+  font-size: larger;
+}
+
+.textarea {
+  min-height: 120px;
+  width: 100%;
+  resize: vertical;
+}
+
+.wide {
+  width: 90%;
+  padding: 10px;
+}
